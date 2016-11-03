@@ -579,3 +579,7 @@ removed from your working tree are ignored with this version of Git.
 
 Run 'git status' to check the paths you removed from your working tree.
 
+[master 08b0b0f] Benchmark 4 processes, scale 16
+ 2 files changed, 409 insertions(+)
+To git@github.com:jchuahtacc/ccgraph500logs.git
+   d4ff407..08b0b0f  master -> master
