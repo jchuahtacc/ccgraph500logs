@@ -140,3 +140,55 @@ TEPS for BFS 25 is 3.87804e+08
 Running BFS 26
 Time for BFS 26 is 0.399051
 Validating BFS 26
+warning: You ran 'git add' with neither '-A (--all)' or '--ignore-removal',
+whose behaviour will change in Git 2.0 with respect to paths you removed.
+Paths like '.runme.swp' that are
+removed from your working tree are ignored with this version of Git.
+
+* 'git add --ignore-removal <pathspec>', which is the current default,
+  ignores paths you removed from your working tree.
+
+* 'git add --all <pathspec>' will let you also record the removals.
+
+Run 'git status' to check the paths you removed from your working tree.
+
+[master 71bc601] Benchmark 4 processes, scale 24
+ 2 files changed, 1 insertion(+)
+ create mode 100644 output_4_25.log
+To git@github.com:jchuahtacc/ccgraph500logs.git
+   572e17a..71bc601  master -> master
+4 MPI Processes, scale 25, output_4_25.log
+graph_generation:               8.089994 s
+[proxy:0:1@mpi-instance-1.novalocal] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:885): assert (!closed) failed
+[proxy:0:1@mpi-instance-1.novalocal] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
+[proxy:0:1@mpi-instance-1.novalocal] main (pm/pmiserv/pmip.c:206): demux engine error waiting for event
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   PID 12620 RUNNING AT mpi-instance-0
+=   EXIT CODE: 15
+=   CLEANING UP REMAINING PROCESSES
+=   YOU CAN IGNORE THE BELOW CLEANUP MESSAGES
+===================================================================================
+[proxy:0:3@mpi-instance-3.novalocal] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:885): assert (!closed) failed
+[proxy:0:3@mpi-instance-3.novalocal] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
+[proxy:0:3@mpi-instance-3.novalocal] main (pm/pmiserv/pmip.c:206): demux engine error waiting for event
+[proxy:0:2@mpi-instance-2.novalocal] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:885): assert (!closed) failed
+[proxy:0:2@mpi-instance-2.novalocal] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
+[proxy:0:2@mpi-instance-2.novalocal] main (pm/pmiserv/pmip.c:206): demux engine error waiting for event
+[mpiexec@mpi-instance-0.novalocal] HYDT_bscu_wait_for_completion (tools/bootstrap/utils/bscu_wait.c:76): one of the processes terminated badly; aborting
+[mpiexec@mpi-instance-0.novalocal] HYDT_bsci_wait_for_completion (tools/bootstrap/src/bsci_wait.c:23): launcher returned error waiting for completion
+[mpiexec@mpi-instance-0.novalocal] HYD_pmci_wait_for_completion (pm/pmiserv/pmiserv_pmci.c:218): launcher returned error waiting for completion
+[mpiexec@mpi-instance-0.novalocal] main (ui/mpich/mpiexec.c:344): process manager error waiting for completion
+warning: You ran 'git add' with neither '-A (--all)' or '--ignore-removal',
+whose behaviour will change in Git 2.0 with respect to paths you removed.
+Paths like '.runme.swp' that are
+removed from your working tree are ignored with this version of Git.
+
+* 'git add --ignore-removal <pathspec>', which is the current default,
+  ignores paths you removed from your working tree.
+
+* 'git add --all <pathspec>' will let you also record the removals.
+
+Run 'git status' to check the paths you removed from your working tree.
+
