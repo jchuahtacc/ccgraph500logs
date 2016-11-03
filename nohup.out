@@ -1,585 +1,142 @@
-./runme: line 9: unexpected EOF while looking for matching `"'
-./runme: line 13: syntax error: unexpected end of file
-4 MPI Processes, scale 1, output_4_1.log
-[proxy:0:1@mpi-instance-1] launch_procs (pm/pmiserv/pmip_cb.c:640): unable to change wdir to /home/cc/ccgraph500logs (No such file or directory)
-[proxy:0:1@mpi-instance-1] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:892): launch_procs returned error
-[proxy:0:1@mpi-instance-1] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
-[proxy:0:1@mpi-instance-1] main (pm/pmiserv/pmip.c:206): demux engine error waiting for event
-[mpiexec@mpi-instance-0] control_cb (pm/pmiserv/pmiserv_cb.c:200): assert (!closed) failed
-[mpiexec@mpi-instance-0] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
-[mpiexec@mpi-instance-0] HYD_pmci_wait_for_completion (pm/pmiserv/pmiserv_pmci.c:198): error waiting for event
-[mpiexec@mpi-instance-0] main (ui/mpich/mpiexec.c:344): process manager error waiting for completion
-warning: You ran 'git add' with neither '-A (--all)' or '--ignore-removal',
-whose behaviour will change in Git 2.0 with respect to paths you removed.
-Paths like '.runme.swp' that are
-removed from your working tree are ignored with this version of Git.
-
-* 'git add --ignore-removal <pathspec>', which is the current default,
-  ignores paths you removed from your working tree.
-
-* 'git add --all <pathspec>' will let you also record the removals.
-
-Run 'git status' to check the paths you removed from your working tree.
-
-[master d8acb1f] Benchmark 4 processes, scale 1
- 2 files changed, 22 insertions(+)
- create mode 100644 output_4_1.log
-To git@github.com:jchuahtacc/ccgraph500logs.git
-   bbaa0a1..d8acb1f  master -> master
-4 MPI Processes, scale 2, output_4_2.log
-[proxy:0:1@mpi-instance-1] launch_procs (pm/pmiserv/pmip_cb.c:640): unable to change wdir to /home/cc/ccgraph500logs (No such file or directory)
-[proxy:0:1@mpi-instance-1] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:892): launch_procs returned error
-[proxy:0:1@mpi-instance-1] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
-[proxy:0:1@mpi-instance-1] main (pm/pmiserv/pmip.c:206): demux engine error waiting for event
-[mpiexec@mpi-instance-0] control_cb (pm/pmiserv/pmiserv_cb.c:200): assert (!closed) failed
-[mpiexec@mpi-instance-0] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
-[mpiexec@mpi-instance-0] HYD_pmci_wait_for_completion (pm/pmiserv/pmiserv_pmci.c:198): error waiting for event
-[mpiexec@mpi-instance-0] main (ui/mpich/mpiexec.c:344): process manager error waiting for completion
-warning: You ran 'git add' with neither '-A (--all)' or '--ignore-removal',
-whose behaviour will change in Git 2.0 with respect to paths you removed.
-Paths like '.runme.swp' that are
-removed from your working tree are ignored with this version of Git.
-
-* 'git add --ignore-removal <pathspec>', which is the current default,
-  ignores paths you removed from your working tree.
-
-* 'git add --all <pathspec>' will let you also record the removals.
-
-Run 'git status' to check the paths you removed from your working tree.
-
-[master 382b59c] Benchmark 4 processes, scale 2
- 2 files changed, 27 insertions(+)
- create mode 100644 output_4_2.log
-To git@github.com:jchuahtacc/ccgraph500logs.git
-   d8acb1f..382b59c  master -> master
-4 MPI Processes, scale 3, output_4_3.log
-[proxy:0:2@mpi-instance-2] launch_procs (pm/pmiserv/pmip_cb.c:640): unable to change wdir to /home/cc/ccgraph500logs (No such file or directory)
-[proxy:0:2@mpi-instance-2] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:892): launch_procs returned error
-[proxy:0:2@mpi-instance-2] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
-[proxy:0:2@mpi-instance-2] main (pm/pmiserv/pmip.c:206): demux engine error waiting for event
-[mpiexec@mpi-instance-0] control_cb (pm/pmiserv/pmiserv_cb.c:200): assert (!closed) failed
-[mpiexec@mpi-instance-0] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
-[mpiexec@mpi-instance-0] HYD_pmci_wait_for_completion (pm/pmiserv/pmiserv_pmci.c:198): error waiting for event
-[mpiexec@mpi-instance-0] main (ui/mpich/mpiexec.c:344): process manager error waiting for completion
-warning: You ran 'git add' with neither '-A (--all)' or '--ignore-removal',
-whose behaviour will change in Git 2.0 with respect to paths you removed.
-Paths like '.runme.swp' that are
-removed from your working tree are ignored with this version of Git.
-
-* 'git add --ignore-removal <pathspec>', which is the current default,
-  ignores paths you removed from your working tree.
-
-* 'git add --all <pathspec>' will let you also record the removals.
-
-Run 'git status' to check the paths you removed from your working tree.
-
-[master 45b3e26] Benchmark 4 processes, scale 3
- 2 files changed, 27 insertions(+)
- create mode 100644 output_4_3.log
-To git@github.com:jchuahtacc/ccgraph500logs.git
-   382b59c..45b3e26  master -> master
-4 MPI Processes, scale 4, output_4_4.log
-[proxy:0:1@mpi-instance-1] launch_procs (pm/pmiserv/pmip_cb.c:640): unable to change wdir to /home/cc/ccgraph500logs (No such file or directory)
-[proxy:0:1@mpi-instance-1] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:892): launch_procs returned error
-[proxy:0:1@mpi-instance-1] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
-[proxy:0:1@mpi-instance-1] main (pm/pmiserv/pmip.c:206): demux engine error waiting for event
-[mpiexec@mpi-instance-0] control_cb (pm/pmiserv/pmiserv_cb.c:200): assert (!closed) failed
-[mpiexec@mpi-instance-0] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
-[mpiexec@mpi-instance-0] HYD_pmci_wait_for_completion (pm/pmiserv/pmiserv_pmci.c:198): error waiting for event
-[mpiexec@mpi-instance-0] main (ui/mpich/mpiexec.c:344): process manager error waiting for completion
-warning: You ran 'git add' with neither '-A (--all)' or '--ignore-removal',
-whose behaviour will change in Git 2.0 with respect to paths you removed.
-Paths like '.runme.swp' that are
-removed from your working tree are ignored with this version of Git.
-
-* 'git add --ignore-removal <pathspec>', which is the current default,
-  ignores paths you removed from your working tree.
-
-* 'git add --all <pathspec>' will let you also record the removals.
-
-Run 'git status' to check the paths you removed from your working tree.
-
-[master 0866aa9] Benchmark 4 processes, scale 4
- 2 files changed, 27 insertions(+)
- create mode 100644 output_4_4.log
-To git@github.com:jchuahtacc/ccgraph500logs.git
-   45b3e26..0866aa9  master -> master
-4 MPI Processes, scale 1, output_4_1.log
-[proxy:0:1@mpi-instance-1] launch_procs (pm/pmiserv/pmip_cb.c:640): unable to change wdir to /home/cc/ccgraph500logs (No such file or directory)
-[proxy:0:1@mpi-instance-1] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:892): launch_procs returned error
-[proxy:0:1@mpi-instance-1] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
-[proxy:0:1@mpi-instance-1] main (pm/pmiserv/pmip.c:206): demux engine error waiting for event
-[mpiexec@mpi-instance-0] control_cb (pm/pmiserv/pmiserv_cb.c:200): assert (!closed) failed
-[mpiexec@mpi-instance-0] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
-[mpiexec@mpi-instance-0] HYD_pmci_wait_for_completion (pm/pmiserv/pmiserv_pmci.c:198): error waiting for event
-[mpiexec@mpi-instance-0] main (ui/mpich/mpiexec.c:344): process manager error waiting for completion
-warning: You ran 'git add' with neither '-A (--all)' or '--ignore-removal',
-whose behaviour will change in Git 2.0 with respect to paths you removed.
-Paths like '.runme.swp' that are
-removed from your working tree are ignored with this version of Git.
-
-* 'git add --ignore-removal <pathspec>', which is the current default,
-  ignores paths you removed from your working tree.
-
-* 'git add --all <pathspec>' will let you also record the removals.
-
-Run 'git status' to check the paths you removed from your working tree.
-
-[master 9973161] Benchmark 4 processes, scale 1
- 1 file changed, 21 insertions(+)
-To git@github.com:jchuahtacc/ccgraph500logs.git
-   febbc0d..9973161  master -> master
-4 MPI Processes, scale 2, output_4_2.log
-[proxy:0:2@mpi-instance-2] launch_procs (pm/pmiserv/pmip_cb.c:640): unable to change wdir to /home/cc/ccgraph500logs (No such file or directory)
-[proxy:0:2@mpi-instance-2] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:892): launch_procs returned error
-[proxy:0:2@mpi-instance-2] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
-[proxy:0:2@mpi-instance-2] main (pm/pmiserv/pmip.c:206): demux engine error waiting for event
-[mpiexec@mpi-instance-0] control_cb (pm/pmiserv/pmiserv_cb.c:200): assert (!closed) failed
-[mpiexec@mpi-instance-0] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
-[mpiexec@mpi-instance-0] HYD_pmci_wait_for_completion (pm/pmiserv/pmiserv_pmci.c:198): error waiting for event
-[mpiexec@mpi-instance-0] main (ui/mpich/mpiexec.c:344): process manager error waiting for completion
-warning: You ran 'git add' with neither '-A (--all)' or '--ignore-removal',
-whose behaviour will change in Git 2.0 with respect to paths you removed.
-Paths like '.runme.swp' that are
-removed from your working tree are ignored with this version of Git.
-
-* 'git add --ignore-removal <pathspec>', which is the current default,
-  ignores paths you removed from your working tree.
-
-* 'git add --all <pathspec>' will let you also record the removals.
-
-Run 'git status' to check the paths you removed from your working tree.
-
-[master 172f958] Benchmark 4 processes, scale 2
- 1 file changed, 25 insertions(+)
-To git@github.com:jchuahtacc/ccgraph500logs.git
-   9973161..172f958  master -> master
-4 MPI Processes, scale 3, output_4_3.log
-[proxy:0:1@mpi-instance-1] launch_procs (pm/pmiserv/pmip_cb.c:640): unable to change wdir to /home/cc/ccgraph500logs (No such file or directory)
-[proxy:0:1@mpi-instance-1] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:892): launch_procs returned error
-[proxy:0:1@mpi-instance-1] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
-[proxy:0:1@mpi-instance-1] main (pm/pmiserv/pmip.c:206): demux engine error waiting for event
-[mpiexec@mpi-instance-0] control_cb (pm/pmiserv/pmiserv_cb.c:200): assert (!closed) failed
-[mpiexec@mpi-instance-0] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
-[mpiexec@mpi-instance-0] HYD_pmci_wait_for_completion (pm/pmiserv/pmiserv_pmci.c:198): error waiting for event
-[mpiexec@mpi-instance-0] main (ui/mpich/mpiexec.c:344): process manager error waiting for completion
-warning: You ran 'git add' with neither '-A (--all)' or '--ignore-removal',
-whose behaviour will change in Git 2.0 with respect to paths you removed.
-Paths like '.runme.swp' that are
-removed from your working tree are ignored with this version of Git.
-
-* 'git add --ignore-removal <pathspec>', which is the current default,
-  ignores paths you removed from your working tree.
-
-* 'git add --all <pathspec>' will let you also record the removals.
-
-Run 'git status' to check the paths you removed from your working tree.
-
-[master fc6716c] Benchmark 4 processes, scale 3
- 1 file changed, 25 insertions(+)
-To git@github.com:jchuahtacc/ccgraph500logs.git
-   172f958..fc6716c  master -> master
-4 MPI Processes, scale 4, output_4_4.log
-[proxy:0:1@mpi-instance-1] launch_procs (pm/pmiserv/pmip_cb.c:640): unable to change wdir to /home/cc/ccgraph500logs (No such file or directory)
-[proxy:0:1@mpi-instance-1] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:892): launch_procs returned error
-[proxy:0:1@mpi-instance-1] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
-[proxy:0:1@mpi-instance-1] main (pm/pmiserv/pmip.c:206): demux engine error waiting for event
-[mpiexec@mpi-instance-0] control_cb (pm/pmiserv/pmiserv_cb.c:200): assert (!closed) failed
-[mpiexec@mpi-instance-0] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
-[mpiexec@mpi-instance-0] HYD_pmci_wait_for_completion (pm/pmiserv/pmiserv_pmci.c:198): error waiting for event
-[mpiexec@mpi-instance-0] main (ui/mpich/mpiexec.c:344): process manager error waiting for completion
-warning: You ran 'git add' with neither '-A (--all)' or '--ignore-removal',
-whose behaviour will change in Git 2.0 with respect to paths you removed.
-Paths like '.runme.swp' that are
-removed from your working tree are ignored with this version of Git.
-
-* 'git add --ignore-removal <pathspec>', which is the current default,
-  ignores paths you removed from your working tree.
-
-* 'git add --all <pathspec>' will let you also record the removals.
-
-Run 'git status' to check the paths you removed from your working tree.
-
-[master 5cc509f] Benchmark 4 processes, scale 4
- 1 file changed, 25 insertions(+)
-To git@github.com:jchuahtacc/ccgraph500logs.git
-   fc6716c..5cc509f  master -> master
-Agent pid 5840
+Agent pid 6916
 Identity added: /home/cc/.ssh/github_rsa (/home/cc/.ssh/github_rsa)
 mkdir: cannot create directory ‘/home/cc/ccgraph500logs’: File exists
 mkdir: cannot create directory ‘/home/cc/ccgraph500logs’: File exists
 mkdir: cannot create directory ‘/home/cc/ccgraph500logs’: File exists
 mkdir: cannot create directory ‘/home/cc/ccgraph500logs’: File exists
-4 MPI Processes, scale 16, output_4_16.log
-graph_generation:               0.035280 s
-construction_time:              0.205317 s
+4 MPI Processes, scale 24, output_4_24.log
+graph_generation:               2.859619 s
+construction_time:              19.433029 s
 Running BFS 0
-Time for BFS 0 is 0.002117
+Time for BFS 0 is 0.695900
 Validating BFS 0
-Validate time for BFS 0 is 5.982711
-TEPS for BFS 0 is 4.95273e+08
+Validate time for BFS 0 is 684.171431
+TEPS for BFS 0 is 3.85735e+08
 Running BFS 1
-Time for BFS 1 is 0.058563
+Time for BFS 1 is 0.740619
 Validating BFS 1
-Validate time for BFS 1 is 5.913961
-TEPS for BFS 1 is 1.79048e+07
+Validate time for BFS 1 is 683.040754
+TEPS for BFS 1 is 3.62443e+08
 Running BFS 2
-Time for BFS 2 is 0.004390
+Time for BFS 2 is 0.742445
 Validating BFS 2
-Validate time for BFS 2 is 5.938669
-TEPS for BFS 2 is 2.3888e+08
+Validate time for BFS 2 is 670.179918
+TEPS for BFS 2 is 3.61552e+08
 Running BFS 3
-Time for BFS 3 is 0.004504
+Time for BFS 3 is 0.802327
 Validating BFS 3
-Validate time for BFS 3 is 5.534103
-TEPS for BFS 3 is 2.32798e+08
+Validate time for BFS 3 is 663.135702
+TEPS for BFS 3 is 3.34567e+08
 Running BFS 4
-Time for BFS 4 is 0.014633
+Time for BFS 4 is 0.423930
 Validating BFS 4
-Validate time for BFS 4 is 6.016104
-TEPS for BFS 4 is 7.16582e+07
+Validate time for BFS 4 is 656.618729
+TEPS for BFS 4 is 6.332e+08
 Running BFS 5
-Time for BFS 5 is 0.057617
+Time for BFS 5 is 0.682509
 Validating BFS 5
-Validate time for BFS 5 is 6.049438
-TEPS for BFS 5 is 1.81991e+07
+Validate time for BFS 5 is 667.061810
+TEPS for BFS 5 is 3.93303e+08
 Running BFS 6
-Time for BFS 6 is 0.048238
+Time for BFS 6 is 0.731515
 Validating BFS 6
-Validate time for BFS 6 is 5.951749
-TEPS for BFS 6 is 2.17374e+07
+Validate time for BFS 6 is 679.251201
+TEPS for BFS 6 is 3.66954e+08
 Running BFS 7
-Time for BFS 7 is 0.035350
+Time for BFS 7 is 0.662393
 Validating BFS 7
-Validate time for BFS 7 is 5.994158
-TEPS for BFS 7 is 2.96626e+07
+Validate time for BFS 7 is 697.186136
+TEPS for BFS 7 is 4.05246e+08
 Running BFS 8
-Time for BFS 8 is 0.002302
+Time for BFS 8 is 0.722460
 Validating BFS 8
-Validate time for BFS 8 is 5.992576
-TEPS for BFS 8 is 4.55423e+08
+Validate time for BFS 8 is 693.302291
+TEPS for BFS 8 is 3.71554e+08
 Running BFS 9
-Time for BFS 9 is 0.058322
+Time for BFS 9 is 0.933629
 Validating BFS 9
-Validate time for BFS 9 is 6.008694
-TEPS for BFS 9 is 1.79789e+07
+Validate time for BFS 9 is 700.423587
+TEPS for BFS 9 is 2.87515e+08
 Running BFS 10
-Time for BFS 10 is 0.066988
+Time for BFS 10 is 0.751110
 Validating BFS 10
-Validate time for BFS 10 is 5.946226
-TEPS for BFS 10 is 1.56531e+07
+Validate time for BFS 10 is 676.489127
+TEPS for BFS 10 is 3.57381e+08
 Running BFS 11
-Time for BFS 11 is 0.010173
+Time for BFS 11 is 0.741074
 Validating BFS 11
-Validate time for BFS 11 is 5.880236
-TEPS for BFS 11 is 1.03075e+08
+Validate time for BFS 11 is 694.717608
+TEPS for BFS 11 is 3.62221e+08
 Running BFS 12
-Time for BFS 12 is 0.048835
+Time for BFS 12 is 0.661003
 Validating BFS 12
-Validate time for BFS 12 is 5.992186
-TEPS for BFS 12 is 2.14717e+07
+Validate time for BFS 12 is 691.056809
+TEPS for BFS 12 is 4.06099e+08
 Running BFS 13
-Time for BFS 13 is 0.003005
+Time for BFS 13 is 0.814422
 Validating BFS 13
-Validate time for BFS 13 is 5.978209
-TEPS for BFS 13 is 3.48994e+08
+Validate time for BFS 13 is 696.387267
+TEPS for BFS 13 is 3.29599e+08
 Running BFS 14
-Time for BFS 14 is 0.002608
+Time for BFS 14 is 0.621207
 Validating BFS 14
-Validate time for BFS 14 is 5.870061
-TEPS for BFS 14 is 4.02086e+08
+Validate time for BFS 14 is 649.941545
+TEPS for BFS 14 is 4.32114e+08
 Running BFS 15
-Time for BFS 15 is 0.002937
+Time for BFS 15 is 0.496789
 Validating BFS 15
-Validate time for BFS 15 is 5.951022
-TEPS for BFS 15 is 3.57069e+08
+Validate time for BFS 15 is 646.750241
+TEPS for BFS 15 is 5.40335e+08
 Running BFS 16
-Time for BFS 16 is 0.002796
+Time for BFS 16 is 0.762872
 Validating BFS 16
-Validate time for BFS 16 is 5.940739
-TEPS for BFS 16 is 3.7497e+08
+Validate time for BFS 16 is 650.055982
+TEPS for BFS 16 is 3.51871e+08
 Running BFS 17
-Time for BFS 17 is 0.002308
+Time for BFS 17 is 0.676495
 Validating BFS 17
-Validate time for BFS 17 is 6.031318
-TEPS for BFS 17 is 4.54388e+08
+Validate time for BFS 17 is 643.007011
+TEPS for BFS 17 is 3.96799e+08
 Running BFS 18
-Time for BFS 18 is 0.002479
+Time for BFS 18 is 0.740397
 Validating BFS 18
-Validate time for BFS 18 is 5.879172
-TEPS for BFS 18 is 4.23049e+08
+Validate time for BFS 18 is 641.852662
+TEPS for BFS 18 is 3.62552e+08
 Running BFS 19
-Time for BFS 19 is 0.002345
+Time for BFS 19 is 0.697891
 Validating BFS 19
-Validate time for BFS 19 is 5.851578
-TEPS for BFS 19 is 4.47181e+08
+Validate time for BFS 19 is 663.475534
+TEPS for BFS 19 is 3.84634e+08
 Running BFS 20
-Time for BFS 20 is 0.002382
+Time for BFS 20 is 0.328141
 Validating BFS 20
-Validate time for BFS 20 is 5.971281
-TEPS for BFS 20 is 4.40198e+08
+Validate time for BFS 20 is 671.254226
+TEPS for BFS 20 is 8.18041e+08
 Running BFS 21
-Time for BFS 21 is 0.001824
+Time for BFS 21 is 0.571898
 Validating BFS 21
-Validate time for BFS 21 is 6.004528
-TEPS for BFS 21 is 5.74905e+08
+Validate time for BFS 21 is 673.524552
+TEPS for BFS 21 is 4.69371e+08
 Running BFS 22
-Time for BFS 22 is 0.002125
+Time for BFS 22 is 0.327475
 Validating BFS 22
-Validate time for BFS 22 is 5.999917
-TEPS for BFS 22 is 4.9355e+08
+Validate time for BFS 22 is 670.673754
+TEPS for BFS 22 is 8.19703e+08
 Running BFS 23
-Time for BFS 23 is 0.058165
+Time for BFS 23 is 0.717480
 Validating BFS 23
-Validate time for BFS 23 is 6.169577
-TEPS for BFS 23 is 1.80276e+07
+Validate time for BFS 23 is 661.947746
+TEPS for BFS 23 is 3.74132e+08
 Running BFS 24
-Time for BFS 24 is 0.049000
+Time for BFS 24 is 0.421937
 Validating BFS 24
-Validate time for BFS 24 is 6.021843
-TEPS for BFS 24 is 2.13995e+07
+Validate time for BFS 24 is 646.089665
+TEPS for BFS 24 is 6.36192e+08
 Running BFS 25
-Time for BFS 25 is 0.046744
+Time for BFS 25 is 0.692187
 Validating BFS 25
-Validate time for BFS 25 is 5.941650
-TEPS for BFS 25 is 2.2432e+07
+Validate time for BFS 25 is 664.985305
+TEPS for BFS 25 is 3.87804e+08
 Running BFS 26
-Time for BFS 26 is 0.002505
+Time for BFS 26 is 0.399051
 Validating BFS 26
-Validate time for BFS 26 is 5.934418
-TEPS for BFS 26 is 4.1854e+08
-Running BFS 27
-Time for BFS 27 is 0.002397
-Validating BFS 27
-Validate time for BFS 27 is 5.948868
-TEPS for BFS 27 is 4.37396e+08
-Running BFS 28
-Time for BFS 28 is 0.003093
-Validating BFS 28
-Validate time for BFS 28 is 5.789092
-TEPS for BFS 28 is 3.38987e+08
-Running BFS 29
-Time for BFS 29 is 0.003316
-Validating BFS 29
-Validate time for BFS 29 is 5.860243
-TEPS for BFS 29 is 3.16222e+08
-Running BFS 30
-Time for BFS 30 is 0.003234
-Validating BFS 30
-Validate time for BFS 30 is 5.922262
-TEPS for BFS 30 is 3.24218e+08
-Running BFS 31
-Time for BFS 31 is 0.002337
-Validating BFS 31
-Validate time for BFS 31 is 5.986337
-TEPS for BFS 31 is 4.4864e+08
-Running BFS 32
-Time for BFS 32 is 0.002593
-Validating BFS 32
-Validate time for BFS 32 is 5.891454
-TEPS for BFS 32 is 4.04379e+08
-Running BFS 33
-Time for BFS 33 is 0.002246
-Validating BFS 33
-Validate time for BFS 33 is 5.919821
-TEPS for BFS 33 is 4.66832e+08
-Running BFS 34
-Time for BFS 34 is 0.002367
-Validating BFS 34
-Validate time for BFS 34 is 5.929935
-TEPS for BFS 34 is 4.43036e+08
-Running BFS 35
-Time for BFS 35 is 0.002548
-Validating BFS 35
-Validate time for BFS 35 is 5.952460
-TEPS for BFS 35 is 4.11453e+08
-Running BFS 36
-Time for BFS 36 is 0.001922
-Validating BFS 36
-Validate time for BFS 36 is 5.896984
-TEPS for BFS 36 is 5.45457e+08
-Running BFS 37
-Time for BFS 37 is 0.002289
-Validating BFS 37
-Validate time for BFS 37 is 6.027635
-TEPS for BFS 37 is 4.5808e+08
-Running BFS 38
-Time for BFS 38 is 0.048909
-Validating BFS 38
-Validate time for BFS 38 is 5.969100
-TEPS for BFS 38 is 2.1439e+07
-Running BFS 39
-Time for BFS 39 is 0.002440
-Validating BFS 39
-Validate time for BFS 39 is 5.929785
-TEPS for BFS 39 is 4.29704e+08
-Running BFS 40
-Time for BFS 40 is 0.002430
-Validating BFS 40
-Validate time for BFS 40 is 5.955898
-TEPS for BFS 40 is 4.31432e+08
-Running BFS 41
-Time for BFS 41 is 0.002290
-Validating BFS 41
-Validate time for BFS 41 is 5.944816
-TEPS for BFS 41 is 4.57889e+08
-Running BFS 42
-Time for BFS 42 is 0.002547
-Validating BFS 42
-Validate time for BFS 42 is 5.891053
-TEPS for BFS 42 is 4.11723e+08
-Running BFS 43
-Time for BFS 43 is 0.002094
-Validating BFS 43
-Validate time for BFS 43 is 6.002789
-TEPS for BFS 43 is 5.008e+08
-Running BFS 44
-Time for BFS 44 is 0.002347
-Validating BFS 44
-Validate time for BFS 44 is 5.647885
-TEPS for BFS 44 is 4.46863e+08
-Running BFS 45
-Time for BFS 45 is 0.001869
-Validating BFS 45
-Validate time for BFS 45 is 5.949293
-TEPS for BFS 45 is 5.61044e+08
-Running BFS 46
-Time for BFS 46 is 0.002192
-Validating BFS 46
-Validate time for BFS 46 is 5.898536
-TEPS for BFS 46 is 4.78358e+08
-Running BFS 47
-Time for BFS 47 is 0.003112
-Validating BFS 47
-Validate time for BFS 47 is 5.956707
-TEPS for BFS 47 is 3.36987e+08
-Running BFS 48
-Time for BFS 48 is 0.016536
-Validating BFS 48
-Validate time for BFS 48 is 5.947377
-TEPS for BFS 48 is 6.34104e+07
-Running BFS 49
-Time for BFS 49 is 0.002378
-Validating BFS 49
-Validate time for BFS 49 is 5.882342
-TEPS for BFS 49 is 4.40949e+08
-Running BFS 50
-Time for BFS 50 is 0.002315
-Validating BFS 50
-Validate time for BFS 50 is 5.966225
-TEPS for BFS 50 is 4.53031e+08
-Running BFS 51
-Time for BFS 51 is 0.002442
-Validating BFS 51
-Validate time for BFS 51 is 6.057981
-TEPS for BFS 51 is 4.29327e+08
-Running BFS 52
-Time for BFS 52 is 0.017239
-Validating BFS 52
-Validate time for BFS 52 is 5.765356
-TEPS for BFS 52 is 6.08268e+07
-Running BFS 53
-Time for BFS 53 is 0.002236
-Validating BFS 53
-Validate time for BFS 53 is 5.942470
-TEPS for BFS 53 is 4.69022e+08
-Running BFS 54
-Time for BFS 54 is 0.001629
-Validating BFS 54
-Validate time for BFS 54 is 5.974961
-TEPS for BFS 54 is 6.43833e+08
-Running BFS 55
-Time for BFS 55 is 0.002250
-Validating BFS 55
-Validate time for BFS 55 is 5.940281
-TEPS for BFS 55 is 4.6604e+08
-Running BFS 56
-Time for BFS 56 is 0.002459
-Validating BFS 56
-Validate time for BFS 56 is 5.993623
-TEPS for BFS 56 is 4.26454e+08
-Running BFS 57
-Time for BFS 57 is 0.002219
-Validating BFS 57
-Validate time for BFS 57 is 5.979036
-TEPS for BFS 57 is 4.72601e+08
-Running BFS 58
-Time for BFS 58 is 0.003096
-Validating BFS 58
-Validate time for BFS 58 is 5.975236
-TEPS for BFS 58 is 3.38726e+08
-Running BFS 59
-Time for BFS 59 is 0.001766
-Validating BFS 59
-Validate time for BFS 59 is 5.978324
-TEPS for BFS 59 is 5.93766e+08
-Running BFS 60
-Time for BFS 60 is 0.058292
-Validating BFS 60
-Validate time for BFS 60 is 6.015632
-TEPS for BFS 60 is 1.79883e+07
-Running BFS 61
-Time for BFS 61 is 0.003116
-Validating BFS 61
-Validate time for BFS 61 is 5.952811
-TEPS for BFS 61 is 3.36472e+08
-Running BFS 62
-Time for BFS 62 is 0.002335
-Validating BFS 62
-Validate time for BFS 62 is 5.849695
-TEPS for BFS 62 is 4.49098e+08
-Running BFS 63
-Time for BFS 63 is 0.058523
-Validating BFS 63
-Validate time for BFS 63 is 5.956799
-TEPS for BFS 63 is 1.79172e+07
-SCALE:                          16
-edgefactor:                     16
-NBFS:                           64
-graph_generation:               0.03528
-num_mpi_processes:              4
-construction_time:              0.205317
-min_time:                       0.00162864
-firstquartile_time:             0.00230503
-median_time:                    0.00252604
-thirdquartile_time:             0.0124029
-max_time:                       0.066988
-mean_time:                      0.013604
-stddev_time:                    0.0207559
-min_nedge:                      1048570
-firstquartile_nedge:            1048570
-median_nedge:                   1048570
-thirdquartile_nedge:            1048570
-max_nedge:                      1048570
-mean_nedge:                     1048570
-stddev_nedge:                   0
-min_TEPS:                       1.56531e+07
-firstquartile_TEPS:             8.45424e+07
-median_TEPS:                    4.15103e+08
-thirdquartile_TEPS:             4.54905e+08
-max_TEPS:                       6.43833e+08
-harmonic_mean_TEPS:             7.70781e+07
-harmonic_stddev_TEPS:           1.48162e+07
-min_validate:                   5.5341
-firstquartile_validate:         5.91689
-median_validate:                5.95139
-thirdquartile_validate:         5.98926
-max_validate:                   6.16958
-mean_validate:                  5.94055
-stddev_validate:                0.0896861
-warning: You ran 'git add' with neither '-A (--all)' or '--ignore-removal',
-whose behaviour will change in Git 2.0 with respect to paths you removed.
-Paths like '.runme.swp' that are
-removed from your working tree are ignored with this version of Git.
-
-* 'git add --ignore-removal <pathspec>', which is the current default,
-  ignores paths you removed from your working tree.
-
-* 'git add --all <pathspec>' will let you also record the removals.
-
-Run 'git status' to check the paths you removed from your working tree.
-
-[master 08b0b0f] Benchmark 4 processes, scale 16
- 2 files changed, 409 insertions(+)
-To git@github.com:jchuahtacc/ccgraph500logs.git
-   d4ff407..08b0b0f  master -> master

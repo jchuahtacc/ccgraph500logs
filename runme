@@ -10,7 +10,7 @@ for host in $hosts ; do
 done
 
 for p in 4; do
-  for i in {16..16}; do
+  for i in {24..26}; do
     echo "$p MPI Processes, scale $i, output_${p}_${i}.log"
     mpirun -np $p --hostfile $hostfile /usr/mpi/examples/graph500_mpi_replicated $i 3>&1 | tee output_${p}_${i}.log ;
     echo "Benchmark was run on $p processes, scale $i" >> output_${p}_${i}.log;
