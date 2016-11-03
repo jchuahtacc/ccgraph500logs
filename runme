@@ -1,4 +1,10 @@
 #!/bin/bash
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/github_rsa
+
+while read h; do 
+  ssh $h 'mkdir ~/ccgraph500logs'
+done<~/hosts
 
 for p in 4; do
   for i in {16..16}; do
