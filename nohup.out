@@ -231,3 +231,7 @@ removed from your working tree are ignored with this version of Git.
 
 Run 'git status' to check the paths you removed from your working tree.
 
+[master f9ae896] Benchmark 4 processes, scale 26
+ 2 files changed, 43 insertions(+)
+To git@github.com:jchuahtacc/ccgraph500logs.git
+   31a7ba8..f9ae896  master -> master
