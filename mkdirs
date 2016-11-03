@@ -1,0 +1,8 @@
+#!/bin/bash
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/github_rsa
+
+while read h; do 
+  ssh $h 'mkdir ~/ccgraph500logs'
+done<~/hosts
+
