@@ -99,3 +99,8 @@ removed from your working tree are ignored with this version of Git.
 
 Run 'git status' to check the paths you removed from your working tree.
 
+[master 0866aa9] Benchmark 4 processes, scale 4
+ 2 files changed, 27 insertions(+)
+ create mode 100644 output_4_4.log
+To git@github.com:jchuahtacc/ccgraph500logs.git
+   45b3e26..0866aa9  master -> master

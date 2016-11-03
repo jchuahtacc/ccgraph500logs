@@ -3,7 +3,7 @@
 for p in 4; do
   for i in {1..4}; do
     echo "$p MPI Processes, scale $i, output_${p}_${i}.log"
-    mpirun -np $p --hostfile ~/hosts /usr/mpi/examples/graph500_mpi_replicated $i 16 | tee output_${p}_${i}.log ;
+    mpirun -np $p --hostfile ~/hosts /usr/mpi/examples/graph500_mpi_replicated $i 16>&1 | tee output_${p}_${i}.log ;
     echo "Benchmark was run on $p processes, scale $i" >> output_${p}_${i}.log;
     git add .
     git commit -m "Benchmark $p processes, scale $i"
