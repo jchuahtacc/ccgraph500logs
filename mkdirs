@@ -2,7 +2,9 @@
 eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/github_rsa
 
-while read h; do 
-  ssh $h 'mkdir ~/ccgraph500logs'
-done<~/hosts
+hostfile='hosts'
+hosts=`cat $hostfile`
 
+for host in $hosts; do
+  ssh $host 'mkdir ~/ccgraph500logs'
+done

@@ -2,9 +2,12 @@
 eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/github_rsa
 
-while read h; do 
-  ssh $h 'nohup mkdir ~/ccgraph500logs &'
-done<~/hosts
+hostfile='hosts'
+hosts=`cat $hostfile`
+
+for host in $hosts ; do
+  ssh $host 'mkdir ~/ccgraph500logs'
+done
 
 for p in 4; do
   for i in {16..16}; do
